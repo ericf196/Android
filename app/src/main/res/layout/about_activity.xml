@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <!--Tittle 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="@dimen/icon_size_medium"
+                    android:layout_height="@dimen/icon_size_medium"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/colorPrimary"
+                    app:iiv_icon="cmd_help"
+                    app:iiv_padding="8dp" />
+
+                <com.optimussoftware.boohos.widget.OptimusTextView
+                    style="@style/OptimusTextStyle.Title.Primary"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="@string/help"/>
+            </LinearLayout>
+
+            <!--Support-->
+            <LinearLayout
+                android:id="@+id/linear_support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.optimussoftware.boohos.widget.OptimusTextView
+                    android:id="@+id/text_support"
+                    style="@style/OptimusTextStyle.BodyM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/icon_size_medium"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="@string/support"/>
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon_support"
+                    android:layout_width="@dimen/icon_size_xsmall"
+                    android:layout_height="@dimen/icon_size_xsmall"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/colorPrimary"
+                    app:iiv_icon="cmd_arrow_down_drop_circle_outline" />
+
+            </LinearLayout>
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_cont_support"
+                style="@style/OptimusTextStyle.BodyR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/spacing_extra"
+                android:padding="10dp"
+                android:text="@string/lorem_ipsum"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorEnabled" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="@dimen/icon_size_medium"
+                    android:layout_height="@dimen/icon_size_medium"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/colorPrimary"
+                    app:iiv_icon="cmd_file_document"
+                    app:iiv_padding="8dp" />
+
+                <com.optimussoftware.boohos.widget.OptimusTextView
+                    style="@style/OptimusTextStyle.Title.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/legal" />
+            </LinearLayout>
+
+
+            <!--Terms-->
+            <LinearLayout
+                android:id="@+id/linear_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.optimussoftware.boohos.widget.OptimusTextView
+                    android:id="@+id/text_terms"
+                    style="@style/OptimusTextStyle.BodyM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/icon_size_medium"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="@string/terms_of_service" />
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon_terms"
+                    android:layout_width="@dimen/icon_size_xsmall"
+                    android:layout_height="@dimen/icon_size_xsmall"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/colorPrimary"
+                    app:iiv_icon="cmd_arrow_down_drop_circle_outline" />
+
+            </LinearLayout>
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_cont_terms"
+                style="@style/OptimusTextStyle.BodyR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/spacing_extra"
+                android:padding="10dp"
+                android:text="@string/lorem_ipsum"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorEnabled" />
+
+            <!--Privacy-->
+            <LinearLayout
+                android:id="@+id/linear_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.optimussoftware.boohos.widget.OptimusTextView
+                    android:id="@+id/text_privacy"
+                    style="@style/OptimusTextStyle.BodyM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/icon_size_medium"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="@string/privacy_policy" />
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon_privacy"
+                    android:layout_width="@dimen/icon_size_xsmall"
+                    android:layout_height="@dimen/icon_size_xsmall"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/colorPrimary"
+                    app:iiv_icon="cmd_arrow_down_drop_circle_outline"/>
+
+            </LinearLayout>
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_cont_privacy"
+                style="@style/OptimusTextStyle.BodyR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/spacing_extra"
+                android:padding="10dp"
+                android:text="@string/lorem_ipsum" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorEnabled" />
+
+            <!--cookies-->
+            <LinearLayout
+                android:id="@+id/linear_cookies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.optimussoftware.boohos.widget.OptimusTextView
+                    android:id="@+id/text_cookies"
+                    style="@style/OptimusTextStyle.BodyM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/icon_size_medium"
+                    android:layout_weight="1"
+                    android:padding="15dp"
+                    android:text="@string/cookies_use"/>
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon_cookies"
+                    android:layout_width="@dimen/icon_size_xsmall"
+                    android:layout_height="@dimen/icon_size_xsmall"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/colorPrimary"
+                    app:iiv_icon="cmd_arrow_down_drop_circle_outline"/>
+
+            </LinearLayout>
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_cont_cookies"
+                style="@style/OptimusTextStyle.BodyR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/spacing_extra"
+                android:padding="10dp"
+                android:text="@string/lorem_ipsum" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorEnabled" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

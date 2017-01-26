@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="images_source">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </array>
+
+    <array name="apps_share">
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Whatsapp</item>
+    </array>
+
+    <array name="colors_notification">
+        <item>Off</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </array>
+
+    <array name="vibrate_notification">
+        <item>Off</item>
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </array>
+
+    <string-array name="recurrence_frequency">
+        <item>1 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+    </string-array>
+
+</resources>

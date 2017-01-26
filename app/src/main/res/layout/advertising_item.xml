@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_advertising"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/content_image_advertising"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_advertising"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/com_facebook_button_background_color_pressed"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_img_slider4" />
+
+            <ImageView
+                android:id="@+id/icon_advertising"
+                android:layout_width="@dimen/icon_size_medium"
+                android:layout_height="@dimen/icon_size_medium"
+                android:visibility="invisible"
+                android:src="@drawable/ic_gift"
+                android:padding="4dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shadow"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.optimussoftware.boohos.widget.OptimusTextView
+            android:id="@+id/name_advertising"
+            style="@style/OptimusTextStyle.BodyM.Accent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/app_name" />
+
+        <com.optimussoftware.boohos.widget.OptimusTextView
+            android:id="@+id/description_advertising"
+            style="@style/OptimusTextStyle.BodyR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+
+</LinearLayout>

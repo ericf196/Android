@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/like_advertising"
+        android:layout_width="@dimen/icon_size_medium"
+        android:layout_height="@dimen/icon_size_medium"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        app:iiv_color="@color/colorEnabled"
+        app:iiv_icon="cmd_thumb_up_outline" />
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/dislike_advertising"
+        android:layout_width="@dimen/icon_size_medium"
+        android:layout_height="@dimen/icon_size_medium"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        app:iiv_color="@color/colorEnabled"
+        app:iiv_icon="cmd_thumb_down_outline" />
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/share_advertising"
+        android:layout_width="@dimen/icon_size_medium"
+        android:layout_height="@dimen/icon_size_medium"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        app:iiv_color="@color/colorEnabled"
+        app:iiv_icon="cmd_share_variant" />
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/favorite_advertising"
+        android:layout_width="@dimen/icon_size_medium"
+        android:layout_height="@dimen/icon_size_medium"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        app:iiv_color="@color/colorEnabled"
+        app:iiv_icon="cmd_gift" />
+
+</LinearLayout>

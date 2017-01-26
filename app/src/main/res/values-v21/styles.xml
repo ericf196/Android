@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:windowEnterTransition">@android:transition/no_transition</item>
+        <item name="android:windowExitTransition">@android:transition/no_transition</item>
+
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/changebounds_with_arcmotion</item>
+        <item name="android:windowSharedElementExitTransition">@transition/changebounds_with_arcmotion</item>
+
+        <!--Theme for MaterialDialog Light-->
+        <item name="md_background_color">@color/white</item>
+        <!--<item name="md_icon">@drawable/ic_notification</item>--><!--todo-->
+        <!--By default, the title text color is derived from the ?android:textColorPrimary system attribute.-->
+        <item name="md_title_color">@color/colorAccent</item>
+        <!--By default, the positive action text color is derived from the colorAccent attribute of AppCompat or android:colorAccent attribute of the Material theme.-->
+        <item name="md_positive_color">@color/colorPrimary</item>
+        <!--By default, the negative action text color is derived from the colorAccent attribute of AppCompat or android:colorAccent attribute of the Material theme.-->
+        <item name="md_negative_color">@color/colorAccent</item>
+        <!--By default, a progress dialog's progress bar, check boxes, and radio buttons have a color that is derived from the colorAccent attribute of AppCompat or android:colorAccent attribute of the Material theme.-->
+        <item name="md_widget_color">@color/colorAccent</item>
+        <item name="md_item_color">@color/colorPrimary</item>
+        <!--The name of font in assets/fonts used on titles and action buttons null uses device default). E.g. [your-project]/app/main/assets/fonts/[medium]-->
+        <!--<item name="md_medium_font">Roboto-Light.ttf</item>-->
+        <!--The name of font in assets/fonts used everywhere else, like content and list items (null uses device default). E.g. [your-project]/app/main/assets/fonts/[regular]-->
+        <!--<item name="md_regular_font">Roboto-Light.ttf</item>-->
+        <!--This sets the gravity used while displaying the dialog action buttons, defaults to start.
+        START (Default)    Neutral     Negative    Positive
+        CENTER:            Negative    Neutral     Positive
+        END:               Positive    Negative    Neutral-->
+        <item name="md_buttons_gravity">center</item>
+    </style>
+
+
+</resources>

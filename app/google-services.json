@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "907089067454",
+    "firebase_url": "https://boohos-app.firebaseio.com",
+    "project_id": "boohos-app",
+    "storage_bucket": "boohos-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907089067454:android:5d19dcf0ac066c8d",
+        "android_client_info": {
+          "package_name": "com.optimussoftware.boohos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907089067454-a2q9p0vsrop7v3be73h38bb8sqbm9btb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optimussoftware.boohos",
+            "certificate_hash": "BB27C342CB575992A86D8F455F5A8322B1FB5784"
+          }
+        },
+        {
+          "client_id": "907089067454-9tpk4tq2onkrtmc2esg5djmqiumo6sd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjD6e9p1J_HB89FIamf0HLNirzIStfjVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907089067454-9tpk4tq2onkrtmc2esg5djmqiumo6sd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

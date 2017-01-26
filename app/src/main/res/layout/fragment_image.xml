@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <com.alexvasilkov.gestures.views.GestureFrameLayout
+        android:id="@+id/gestures_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- GestureFrameLayout can contain only one child -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/description"/>
+        <!--android:src="@drawable/ic_img_slider4"-->
+
+    </com.alexvasilkov.gestures.views.GestureFrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_black"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_title"
+                style="@style/OptimusTextStyle.BodyM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:textColor="@color/white"/>
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_description"
+                style="@style/OptimusTextStyle.BodyR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

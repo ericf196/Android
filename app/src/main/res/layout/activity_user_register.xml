@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back_login"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".account.UserRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                style="@style/OptimusTextStyle.BodyM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_register_instructions"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:transitionName="@string/transition_name_circle"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_profile_image"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="4dp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/input_register_first_name"
+                style="@style/OptimusEditTextStyle.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/hint_first_name"
+                android:inputType="textPersonName" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/input_register_last_name"
+                style="@style/OptimusEditTextStyle.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_last_name"
+                android:inputType="textPersonName" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/input_register_email"
+                style="@style/OptimusEditTextStyle.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/input_register_password"
+                    style="@style/OptimusEditTextStyle.01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword" />
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:id="@+id/icon_show_password"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    app:iiv_color="@color/white"
+                    app:iiv_icon="cmd_eye" />
+
+            </LinearLayout>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/input_register_phone"
+                style="@style/OptimusEditTextStyle.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789+"
+                android:maxLength="15"
+                android:hint="@string/hint_phone"
+                android:inputType="phone" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/input_register_gender"
+                style="@style/OptimusEditTextStyle.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_gender" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/input_register_birthday"
+                style="@style/OptimusEditTextStyle.01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:hint="@string/hint_birthday"
+                android:inputType="textNoSuggestions"
+                android:textIsSelectable="false" />
+
+            <com.mikepenz.iconics.view.IconicsButton
+                android:id="@+id/button_register_submit"
+                style="@style/OptimusButton.Primary"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:minWidth="200dp"
+                android:onClick="registerUser"
+                android:text="@string/sign_up_text" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floating_photo"
+        style="@style/FloatingActionMenuStyle"
+        android:transitionName="@string/transition_name_floating"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="invisible">
+
+        <!-- Add Interest -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/option_camera"
+            style="@style/FloatingActionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/camera" />
+
+        <!-- Edit Info -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/option_galery"
+            style="@style/FloatingActionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/galery" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

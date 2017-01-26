@@ -1,0 +1,87 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">25dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Odoo dimensions -->
+    <dimen name="default_16dp">16dp</dimen>
+
+    <!-- Guillotine screen dimens-->
+    <dimen name="minimum_margin">3dp</dimen>
+
+    <dimen name="item_text_size">20sp</dimen>
+    <dimen name="actionbar_background_view_height">35dp</dimen>
+
+    <!-- Advertising Listview -->
+    <dimen name="height_item_advertising">250dp</dimen>
+
+    <!-- Button Primary -->
+    <dimen name="button_primary_corner_radius">30dp</dimen>
+    <dimen name="button_primary_border_width">1dp</dimen>
+
+    <!-- Social Buttons -->
+    <dimen name="button_social_corner_radius">25dp</dimen>
+    <dimen name="button_social_width">100dp</dimen>
+    <dimen name="button_social_height">40dp</dimen>
+    <dimen name="button_social_margin_bottom">5dp</dimen>
+    <dimen name="button_social_size">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Icon's size -->
+    <dimen name="icon_size_xxsmall">20dp</dimen>
+    <dimen name="icon_size_xsmall">24dp</dimen>
+    <dimen name="icon_size_small">28dp</dimen>
+    <dimen name="icon_size_medium">36dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_xlarge">64dp</dimen>
+    <dimen name="icon_size_xxlarge">96dp</dimen>
+    <dimen name="icon_size_xxxlarge">128dp</dimen>
+
+    <!-- Texts size -->
+    <dimen name="font_small_size">10sp</dimen>
+    <dimen name="font_default_size">12sp</dimen>
+    <dimen name="font_medium_size">14sp</dimen>
+    <dimen name="font_large_size">16sp</dimen>
+    <dimen name="font_xlarge_size">18sp</dimen>
+    <dimen name="font_xxlarge_size">20sp</dimen>
+    <dimen name="font_xxxlarge_size">24sp</dimen>
+
+    <!--Text Size form:
+     https://material.google.com/style/typography.html#typography-styles
+     -->
+    <dimen name="font_caption_size">12sp</dimen><!--REGULAR-->
+    <dimen name="font_body_r_size">14sp</dimen><!--REGULAR-->
+    <dimen name="font_body_m_size">15sp</dimen><!--MEDIUM-->
+    <dimen name="font_button_size">14sp</dimen><!--MEDIUM--><!--ALL CAPS-->
+    <dimen name="font_subheading_size">16sp</dimen><!--REGULAR-->
+    <dimen name="font_title_size">20sp</dimen><!--MEDIUM-->
+    <dimen name="font_heading_size">44sp</dimen><!--REGULAR-->
+    <dimen name="font_display_01_size">34sp</dimen><!--REGULAR-->
+    <dimen name="font_display_02_size">45sp</dimen><!--REGULAR-->
+    <dimen name="font_display_03_size">56sp</dimen><!--REGULAR-->
+    <dimen name="font_display_04_size">112sp</dimen><!--REGULAR-->
+
+    <!--Text Leading-->
+    <dimen name="spacing_extra">2.5dp</dimen><!--android:lineSpacingExtra="@dimen/spacing_extra"-->
+
+
+    <!-- corners cards -->
+    <dimen name="radius_card">5dp</dimen>
+
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_huge">72dp</dimen>
+
+
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="elevation_fab">8dp</dimen>
+
+    <dimen name="size_icon_toolbar">40dp</dimen>
+
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="anim_duration_medium">300</integer>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_login_email"
+        style="@style/OptimusEditTextStyle.02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/input_login_password"
+            style="@style/OptimusEditTextStyle.02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"/>
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/icon_show_pass"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:iiv_color="@color/colorEnabled"
+            app:iiv_icon="cmd_eye" />
+
+    </LinearLayout>
+
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/forgot_pass"
+        style="@style/OptimusTextStyle.BodyM.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/icon_size_medium"
+        android:gravity="center"
+        android:text="@string/forgot_password_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <com.mikepenz.iconics.view.IconicsButton
+        android:id="@+id/login_button"
+        style="@style/OptimusButton.Primary"
+        android:layout_gravity="center"
+        android:background="@drawable/button_primary"
+        android:text="@string/sign_in_button_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>

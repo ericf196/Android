@@ -1,0 +1,232 @@
+<!--
+    App: Boohos Client Android
+    Tags: Beacons, java, estimote, social networks
+    Country: Panama, Venezuela
+    Author: William castillo <william.castillo@optimus-software.com>
+-->
+
+<resources>
+    <!-- Social's Text -->
+    <string name="login_social">O conecta con</string>
+
+    <!-- Labels -->
+    <string name="action_settings">Ajustes</string>
+
+    <!-- Bluetooth test -->
+    <string name="not_bluetooth">Este dispositivo no tiene bluetooth</string>
+    <string name="bluetooth_off">Boohos quiere activar el Bluetooth</string>
+
+    <string name="connection_off">Sin conexión</string>
+
+    <!-- View Interest -->
+    <string name="interest_title">Interesar</string>
+
+    <!-- View AdvertisingItem -->
+    <string name="get_deal">Getting Deal</string>
+    <string name="new_offerts">We have new offers for you</string>
+    <string name="new_offert">We have an offer for you</string>
+
+    <!-- Google Plus Permissions -->
+    <string name="google_plus_title">Google+</string>
+    <string name="google_plus_permission_error">No tiene permiso para esta opción</string>
+
+    <!-- Input user fields -->
+    <string name="input_user_email">correo</string>
+    <string name="input_user_fullName">nombre</string>
+    <string name="input_user_password">contraseña</string>
+    <string name="input_user_phone">teléfono</string>
+    <string name="input_user_gender_male">masculino</string>
+    <string name="input_user_gender_female">femenino</string>
+    <string-array name="input_user_genders">
+        <item>@string/input_user_gender_male</item>
+        <item>@string/input_user_gender_female</item>
+    </string-array>
+    <string name="input_user_gender_hint">género</string>
+    <string name="button_send">Enviar</string>
+    <string name="button_save">Guardar</string>
+
+    <!-- Error toasts -->
+    <string name="toast_missing_field">Debe rellenar todos los campos.</string>
+    <string name="toast_connection_error">Error al conectarse a los servidores.</string>
+    <string name="toast_login_error">Error de acceso, correo electrónico o la contraseña incorrecta</string>
+    <string name="toast_login_social_error">Error inicio con red social</string>
+    <string name="toast_error">Error</string>
+
+    <!-- Auth -->
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_first_name">Nombre</string>
+    <string name="hint_last_name">Apellido</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="hint_gender">Genero</string>
+    <string name="hint_birthday">Cumpleaños</string>
+    <string name="sign_in_button_text">Iniciar</string>
+    <string name="edit_profile_button_text">Editar perfil</string>
+    <string name="edit_profile_successful">Información perfil actualizada</string>
+    <string name="edit">Editar</string>
+    <string name="forgot_password_text">Olvidaste tu contraseña?</string>
+    <string name="forget_password">No puedes acceder? Olvidaste tu contraseña?</string>
+    <string name="enter_email_address">Introduzca su dirección de correo electrónico y te enviaremos las instrucciones para restablecer la contraseña</string>
+    <string name="sign_up_text">Regístrate</string>
+    <string name="day_month_year">Día, Mes, Año</string>
+
+    <!-- Register -->
+    <string name="user_register_instructions">Por favor, rellene el formulario con sus datos para empezar a utilizar Boohos.</string>
+    <!--<string name="user_register_change_picture">Change picture</string>-->
+    <string name="user_register_fails">Lo sentimos, algo ha salido mal</string>
+    <string name="user_register_successful">Registro exitoso</string>
+
+    <!-- Icons -->
+    <string name="ic_arrow_left">cmd-arrow-left</string>
+    <string name="ic_email">cmd-email</string>
+    <string name="ic_gender">cmd-gender-male-female</string>
+    <string name="ic_phone">cmd-cellphone-android</string>
+    <string name="ic_birthday">cmd-cake</string>
+    <string name="ic_main_menu">cmd-view-headline</string>
+
+    <!-- Main Menu -->
+    <string name="main_menu_option_add_interest">Agregar intereses</string>
+    <string name="main_menu_option_edit_info">Editar perfil</string>
+    <string name="main_menu_option_preference">Ajustes</string>
+    <string name="main_menu_option_logout">Cerrar sesión</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Permisos faltantes</string>
+    <string name="permissions_request">Necesitamos estos permisos</string>
+    <string name="not_permission_get_accounts">Boohos no puede utilizar su cuenta de Google para iniciar sesión</string>
+    <string name="not_permission_bluetooth">Si usted no permite el uso de Bluetooth Boohos no puede detectar ofertas</string>
+    <string name="all_permissions_denied_init_activity">Boohos no puede utilizar su cuenta de Google o leer su número de teléfono o ambos</string>
+
+    <!-- Clipboard -->
+    <string name="text_copied">Texto copiado en el portapapeles</string>
+    <string name="text_not_copied">Texto no copiado en el portapapeles</string>
+
+    <!-- Subtitles toolbar -->
+    <string name="sub_title_interest">Tus intereses</string>
+
+    <!-- Category Interest -->
+    <string name="interest_category_text">Selecciona tus intereses</string>
+
+
+    <!--Title tabLayout -->
+    <string name="tab_all">Todo</string>
+    <string name="tab_by">Por intereses</string>
+    <string name="tab_profile">Perfil</string>
+    <string name="tab_favorite">Deseos</string>
+
+    <!--Rating-->
+    <string name="ranking">Clasificación</string>
+
+    <!--Review-->
+    <string name="reviews">Comentarios</string>
+    <string name="show_more">Mostrar más</string>
+    <string name="comment_this">Comentar esto</string>
+    <string name="nothing_more">Nada más</string>
+
+    <string name="leave_comment">Deje su comentario</string>
+
+    <!--Campaing-->
+    <string name="related_deals">Ofertas relacionadas</string>
+    <string name="promotion_expires">Promoción expira en:</string>
+    <string name="day">Día</string>
+    <string name="days">Días</string>
+    <string name="hour">Hora</string>
+    <string name="hours">Horas</string>
+    <string name="minute">Minuto</string>
+    <string name="ninutes">Minutos</string>
+
+    <!--About-->
+    <string name="about">Acerca de Boohos</string>
+    <string name="help">Ayuda</string>
+    <string name="support">Soporte</string>
+    <string name="legal">Legal</string>
+    <string name="terms_of_service">Términos de servicio</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="cookies_use">Uso de cookies</string>
+
+    <!--Preferences-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="recurrence_frequency">Frecuencia de recurrencia</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="notification_new">Nueva notificación</string>
+    <string name="notifications_setting">Administrar notificaciones</string>
+    <string name="notification_tone">Tono de notificación</string>
+    <string name="light">Luz</string>
+    <string name="vibrate">Vibrar</string>
+
+    <!--Notifications-->
+    <string name="deleted">Borrado</string>
+    <string name="blocked">Bloqueado</string>
+    <string name="wan_recive_notifications">Desea recibir notificaciones de sus favoritos</string>
+    <string name="do_not_ask_again">No volver a preguntar</string>
+
+    <!--Validations Register-->
+    <string name="select">Seleccione</string>
+    <string name="enter_name">Ingrese nombre</string>
+    <string name="enter_email">Ingrese correo</string>
+    <string name="enter_email_valid">Ingrese correo válido</string>
+    <string name="enter_password_valid">La contraseña debe tener al menos 8 caracteres, al menos 1 número, al menos 1 minúscula y al menos 1 mayúscula</string>
+    <string name="enter_phone">Ingrese teléfono</string>
+    <string name="enter_phone_valid">Ingrese teléfono válido</string>
+    <string name="enter_gender">Ingrese genero</string>
+    <string name="enter_birthday">Ingrese cumpleaños</string>
+    <string name="enter_photo">Ingrese foto</string>
+    <string name="galery">Galeria</string>
+    <string name="camera">Cámara</string>
+
+    <!--Inro Slider -->
+    <string name="title_slider1">INNOVADOR</string>
+    <string name="content_slider1">La unión del mundo digital con el mundo fisico.</string>
+    <string name="title_slider2">EFICAZ</string>
+    <string name="content_slider2">Lo que usted quiera, cuando quiera.</string>
+    <string name="title_slider3">PRÁCTICA</string>
+    <string name="content_slider3">Ahorra tiempo y dinero.</string>
+    <string name="title_slider4">BOOHOS</string>
+    <string name="content_slider4">Mucho más que una experiencia de compra.</string>
+    <string name="button_slider">Comenzar</string>
+    <string name="please_wait">Por favor, espere&#8230;</string>
+
+
+    <!-- Share -->
+    <string name="share_with">Compartit con</string>
+    <string name="app_no_installed">Esta aplicación no está instalada</string>
+    <string name="share_in">Compartir en&#8230;</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="similar_offers">Ofertas similares</string>
+    <string name="complete_your_profile">Completa tu perfil</string>
+
+    <!--birthday and gender -->
+    <string name="select_gender">Selecciona tu género</string>
+    <string name="continue_">Continuar</string>
+    <string name="read_more">Leer más&#8230;</string>
+    <string name="interest_agree">Aceptar</string>
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">Invites</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Invitation Title</string>
+    <string name="invitation_message">Mensaje para invitar a descargar la aplicacion, se debe apendar el deep link %s.</string>
+    <string name="invitation_deep_link">https://boohos.com/welcome</string>
+    <string name="invitation_custom_image">https://boohos.com/welcome/logo.png</string>
+    <string name="invitation_cta">Install!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+    <string name="inivite_friends">Invitar a amigos</string>
+    <string name="inivite_facebook_friends">Inivitar a amigos de facebook</string>
+
+    <!-- GrowHacking -->
+    <string name="add_all" formatted="false">Agregar todos</string>
+    <string name="send_all" formatted="false">Enviar todos</string>
+    <string name="skip_" formatted="false">Saltar paso</string>
+
+</resources>
+

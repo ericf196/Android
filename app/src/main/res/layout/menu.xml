@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:clickable="true"
+    tools:context=".main.MainActivity">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include layout="@layout/menu_content" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_menu_main"
+            style="@style/NavigationTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerMenu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <!--Floating Button-->
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/main_menu"
+        style="@style/FloatingActionMenuStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <!-- Add Interest -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/option_add_interest"
+            style="@style/FloatingActionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/main_menu_option_add_interest" />
+
+        <!-- Edit Info -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/option_edit_info"
+            style="@style/FloatingActionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/main_menu_option_edit_info" />
+
+        <!-- Log out -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/option_preferences"
+            style="@style/FloatingActionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/main_menu_option_preference" />
+
+        <!-- Log out -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/option_logout"
+            style="@style/FloatingActionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/main_menu_option_logout" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <View
+        android:id="@+id/viewFloating"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="false"/>
+
+</android.support.design.widget.CoordinatorLayout>

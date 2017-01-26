@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fonts Names-->
+    <string name="font_normal">sans-serif</string>
+    <string name="font_light">sans-serif-light</string>
+    <string name="font_condensed">sans-serif-condensed</string>
+
+    <string name="font_name_thin">Roboto-Thin</string>
+    <string name="font_name_light">Roboto-Light</string>
+    <string name="font_name_regular">Roboto-Regular</string>
+    <string name="font_name_medium">Roboto-Medium</string>
+    <string name="font_name_bold">Roboto-Bold</string>
+    <string name="font_name_black">Roboto-Black</string>
+    <string name="font_name_thin_italic">Roboto-ThinItalic</string>
+    <string name="font_name_light_italic">Roboto-LightItalic</string>
+    <string name="font_name_regular_italic">Roboto-RegularItalic</string>
+    <string name="font_name_medium_italic">Roboto-MediumItalic</string>
+    <string name="font_name_bold_italic">Roboto-BoldItalic</string>
+    <string name="font_name_black_italic">Roboto-BlackItalic</string>
+
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xxlarge">25sp</dimen>
+
+    <!--Path Font-->
+    <string name="font_path_thin">fonts/Roboto/Roboto-Thin.ttf</string>
+    <string name="font_path_light">fonts/Roboto/Roboto-Light.ttf</string>
+    <string name="font_path_regular">fonts/Roboto/Roboto-Regular.ttf</string>
+    <string name="font_path_medium">fonts/Roboto/Roboto-Medium.ttf</string>
+    <string name="font_path_bold">fonts/Roboto/Roboto-Bold.ttf</string>
+    <string name="font_path_black">fonts/Roboto/Roboto-Black.ttf</string>
+    <string name="font_path_thin_italic">fonts/Roboto/Roboto-ThinItalic.ttf</string>
+    <string name="font_path_light_italic">fonts/Roboto/Roboto-LightItalic.ttf</string>
+    <string name="font_path_regular_italic">fonts/Roboto/Roboto-RegularItalic.ttf</string>
+    <string name="font_path_medium_italic">fonts/Roboto/Roboto-MediumItalic.ttf</string>
+    <string name="font_path_bold_italic">fonts/Roboto/Roboto-BoldItalic.ttf</string>
+    <string name="font_path_black_italic">fonts/Roboto/Roboto-BlackItalic.ttf</string>
+
+    <!--Text Styles-->
+    <integer name="font_style_thin">0</integer>
+    <integer name="font_style_light">1</integer>
+    <integer name="font_style_regular">2</integer>
+    <integer name="font_style_medium">3</integer>
+    <integer name="font_style_bold">4</integer>
+    <integer name="font_style_black">5</integer>
+    <integer name="font_style_thin_italic">6</integer>
+    <integer name="font_style_light_italic">7</integer>
+    <integer name="font_style_regular_italic">8</integer>
+    <integer name="font_style_medium_italic">9</integer>
+    <integer name="font_style_bold_italic">10</integer>
+    <integer name="font_style_black_italic">11</integer>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_advertising"
+        android:transitionName="@string/transition_name_advertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp" />
+
+    <View
+        android:id="@+id/view_advertising"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:rotation="180"
+        android:background="@drawable/background_shadow_inverse" />
+
+    <View
+        android:id="@+id/view2_advertising"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:background="@drawable/background_shadow_inverse" />
+
+</RelativeLayout>

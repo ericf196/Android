@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:accountType="Herme"
+    android:icon="@drawable/ic_logo"
+    android:label="@string/app_name"
+    android:smallIcon="@drawable/ic_notification"
+    android:accountPreferences="@xml/preference"/>

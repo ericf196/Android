@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/default_16dp">
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/sub_title"
+        style="@style/OptimusTextStyle.Title.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/big_title"
+        style="@style/OptimusTextStyle.Title.Accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/description"
+        style="@style/OptimusTextStyle.BodyR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_16dp"
+        android:gravity="center" />
+
+    <com.mikepenz.iconics.view.IconicsButton
+        android:id="@+id/finishSlider"
+        style="@style/OptimusButton.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_social_height"
+        android:layout_gravity="center"
+        android:text="@string/button_slider"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>

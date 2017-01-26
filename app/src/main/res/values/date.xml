@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Date Util -->
+    <string name="date_term_less">less than</string>
+    <string name="date_term_a">a</string>
+    <string name="date_term_an">an</string>
+    <string name="date_just_now">just now</string>
+
+    <string name="date_second">second</string>
+    <string name="date_seconds">seconds</string>
+    <string name="date_minute">minute</string>
+    <string name="date_minutes">minutes</string>
+    <string name="date_hour">hour</string>
+    <string name="date_hours">hours</string>
+    <string name="date_day">day</string>
+    <string name="date_days">days</string>
+    <string name="date_week">week</string>
+    <string name="date_weeks">months</string>
+    <string name="date_month">month</string>
+    <string name="date_months">months</string>
+    <string name="date_year">year</string>
+    <string name="date_years">years</string>
+
+    <string name="date_monday">Monday</string>
+    <string name="date_tuesday">Tuesday</string>
+    <string name="date_wednesday">Wednesdayuesday</string>
+    <string name="date_thursday">Thursday</string>
+    <string name="date_friday">Friday</string>
+    <string name="date_saturday">Saturday</string>
+    <string name="date_sunday">Sunday</string>
+
+    <string name="date_january">January</string>
+    <string name="date_february">February</string>
+    <string name="date_march">March</string>
+    <string name="date_april">April</string>
+    <string name="date_may">May</string>
+    <string name="date_june">June</string>
+    <string name="date_july">July</string>
+    <string name="date_august">August</string>
+    <string name="date_september">September</string>
+    <string name="date_october">October</string>
+    <string name="date_november">November</string>
+    <string name="date_december">December</string>
+
+    <string name="date_prefix_lt">less than a</string>
+    <string name="date_prefix_about">about</string>
+    <string name="date_prefix_over">over</string>
+    <string name="date_prefix_almost">almost</string>
+
+    <string name="date_suffix_ago">ago</string>
+    <string name="date_second_ago">%d ago second</string>
+    <string name="date_minute_ago">%d ago minute</string>
+    <string name="date_hour_ago">%d ago hour</string>
+    <string name="date_day_ago">%d ago day</string>
+
+</resources>

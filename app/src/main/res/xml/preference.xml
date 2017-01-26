@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="account_sync_settings"
+        android:title="Sync Settings">
+        <PreferenceScreen
+            android:key="account_settings"
+            android:summary="Enable or disable data synchronization"
+            android:title="Sync Data">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

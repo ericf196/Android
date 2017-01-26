@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--palette basic-->
+    <color name="colorPrimary">#FF6C00</color>
+    <color name="colorPrimaryDark">#CC4E17</color>
+    <color name="colorAccent">#042C2C</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="textColorPrimary">#878787</color>
+    <color name="textColorSecondary">#3e3e3e</color>
+    <color name="textColorDisable">#c6c6c6</color>
+    <color name="colorEnabled">#878787</color>
+
+    <!--palette basic light-->
+    <color name="colorPrimaryLight">#ec7924</color>
+    <color name="colorPrimaryDarkLight">#c75828</color>
+    <color name="colorAccentLight">#0c4646</color>
+
+    <color name="colorPrimaryTrans">#e1ff6c00</color>
+    <color name="colorPrimaryDarkTrans">#e1cc4e17</color>
+    <color name="colorAccentTransTrans">#e1042c2c</color>
+    <color name="colorBackgroundTrans">#e1fafafa</color>
+    <!--color del fondo del reloj: #EBEFF2
+    color de los numeros grandes del reloj: #9F9F9F
+    color del texto de dias, horas y min: #B7B8BA
+    color del titulo del reloj: #0D2927-->
+
+    <color name="backgroundText">#EBEFF2</color>
+    <color name="colorTextBigWithBackground">#9F9F9F</color>
+    <color name="colorTextSmallWithBackground">#B7B8BA</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#dc000000</color>
+
+    <!-- Facebook button -->
+    <color name="button_facebook_default_color">#1665C1</color>
+    <color name="button_facebook_focus_color">#e61665c1</color>
+
+    <!-- Google button -->
+    <color name="button_google_default_color">#F54337</color>
+    <color name="button_google_focus_color">#e6f54337</color>
+
+    <!-- Notification -->
+    <color name="no_viewed">#E3F2F4</color>
+
+</resources>

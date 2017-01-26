@@ -1,0 +1,357 @@
+<!--
+    App: Boohos Client Android
+    Tags: Beacons, java, estimote, social networks
+    Country: Panama, Venezuela
+    Author: William castillo <william.castillo@optimus-software.com>
+-->
+
+<resources>
+    <!--Name app-->
+    <string name="app_name" translatable="false">Boohos</string>
+
+    <!-- Credentials -->
+    <string name="facebook_app_id" translatable="false">1682136668761834</string>
+
+    <!-- Maps -->
+    <string name="google_maps_key" translatable="false">AIzaSyCDnZBMbhZYFp5OKT9e8V4BCKAHK1EBxek</string>
+
+    <!-- Estimote -->
+    <string name="estimote_AppID" translatable="false">optimus-software-s-blank-h7r</string>
+    <string name="estimote_AppToken" translatable="false">5f79db20a43a99fa52cc067a904094a0</string>
+
+    <!-- Google -->
+    <string name="api_key_google" translatable="false">AIzaSyDjD6e9p1J_HB89FIamf0HLNirzIStfjVw</string>
+    <string name="ids_client_oauth" translatable="false">907089067454-t2s47u6k4qudc45dlgi343fe4u58s648.apps.googleusercontent.com</string>
+    <string name="clientID">907089067454-9tpk4tq2onkrtmc2esg5djmqiumo6sd1.apps.googleusercontent.com</string>
+    <string name="clientSecret">nGTNU0xcz3THFsEgvpA0oug9</string>
+
+    <!-- Boohos API Configuration Gateway -->
+    <string name="url_base" translatable="false">http://integration.optimus-software.com:</string>
+    <string name="api_port" translatable="false">5002</string>
+    <string name="api_version" translatable="false">/v1</string>
+    <string name="api_host" translatable="false">integration.optimus-software.com</string>
+    <string name="api_agent" translatable="false">hermeapp-android</string>
+
+    <!-- twitter credentials -->
+    <string name="twitter_consumer_key" translatable="false">5W5TBycyu7bYjDOcJiY51j5fI</string>
+    <string name="twitter_secret_key" translatable="false">pxJLHooqEgFN3Ct7bMvozPz7K80j4VgBN80OlyHMXDXAvZw7xk</string>
+
+    <!-- twitter fabric credentials -->
+    <string name="twitter_fabric_key" translatable="false">d341d43e6fa46b9460ef54dcd5ec73e5f1d4530a</string>
+
+    <!-- Sync Task -->
+    <string name="sync_label_interest" translatable="false">Synchonize interest</string>
+
+    <!--Description for image to reference-->
+    <string name="description" translatable="false">Image to reference</string>
+
+    <!-- Common messages -->
+    <string name="undefined" translatable="false">Undefined</string>
+
+    <!-- Contente Description -->
+    <string name="boohos_logo" translatable="false">Logo Bohoos</string>
+
+    <string name="lorem_ipsum_short" translatable="false">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Aenean commodo ligula eget dolor.</string>
+
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+        parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+        vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+        felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+        vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
+        lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+        Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+        sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+        Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+        Donec sodales sagittis magna.</string>
+
+    <!-- Social's Text -->
+    <string name="login_social">Or connect with</string>
+    <string name="login_via_facebook" translatable="false">Facebook</string>
+    <string name="login_via_google" translatable="false">Google</string>
+
+    <!-- Labels -->
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_app_intro">AppIntro</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Bluetooth test -->
+    <string name="not_bluetooth">This device does not have bluetooth</string>
+    <string name="bluetooth_off">Boohos wants to turn on Bluetooth.</string>
+
+    <string name="connection_off">Without connection</string>
+
+    <!-- View Interest -->
+    <string name="interest_title">Interest</string>
+
+    <!-- View AdvertisingItem -->
+    <string name="get_deal">Getting Deal</string>
+    <string name="new_offerts">We have new offers for you</string>
+    <string name="new_offert">We have an offer for you</string>
+
+    <!-- Google Plus Permissions -->
+    <string name="google_plus_title">Google+</string>
+    <string name="google_plus_permission_error">You do not have permission to make this option</string>
+
+    <!-- Input user fields -->
+    <string name="input_user_email">email</string>
+    <string name="input_user_fullName">full name</string>
+    <string name="input_user_password">password</string>
+    <string name="input_user_phone">phone</string>
+    <string name="input_user_gender_male">male</string>
+    <string name="input_user_gender_female">female</string>
+    <string-array name="input_user_genders">
+        <item>@string/input_user_gender_male</item>
+        <item>@string/input_user_gender_female</item>
+    </string-array>
+    <string name="input_user_gender_hint">gender</string>
+    <string name="button_send">Send</string>
+    <string name="button_save">Save</string>
+
+    <!-- Error toasts -->
+    <string name="toast_missing_field">You must fill all fields.</string>
+    <string name="toast_connection_error">Error trying to connected to servers.</string>
+    <string name="toast_login_error">Login Failed, Incorrect email or password</string>
+    <string name="toast_login_social_error">Social Network fails</string>
+    <string name="toast_error">Error</string>
+
+    <!-- Auth -->
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="sign_in_button_text">Sign in</string>
+    <string name="edit_profile_button_text">Edit Profile</string>
+    <string name="edit_profile_successful">Updated personal information</string>
+    <string name="edit">Edit</string>
+    <string name="forgot_password_text">Forgot your password?</string>
+    <string name="forget_password">Can\'t sign in? Forget your password?</string>
+    <string name="enter_email_address">Enter your email address below and we \'ll send you password reset instructions</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="day_month_year">Day, Month, Year</string>
+
+    <!-- Register -->
+    <string name="user_register_instructions">Please fill out the form with your details to start using Boohos.</string>
+    <!--<string name="user_register_change_picture">Change picture</string>-->
+    <string name="user_register_fails">Sorry, something has gone wrong</string>
+    <string name="user_register_successful">Register Successful</string>
+
+    <!-- Icons -->
+    <string name="ic_arrow_left">cmd-arrow-left</string>
+    <string name="ic_email">cmd-email</string>
+    <string name="ic_gender">cmd-gender-male-female</string>
+    <string name="ic_phone">cmd-cellphone-android</string>
+    <string name="ic_birthday">cmd-cake</string>
+    <string name="ic_main_menu">cmd-view-headline</string>
+
+    <!-- Main Menu -->
+    <string name="main_menu_option_add_interest">Add Interest</string>
+    <string name="main_menu_option_edit_info">Edit Info</string>
+    <string name="main_menu_option_preference">Preferences</string>
+    <string name="main_menu_option_logout">Log out</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Missing permissions</string>
+    <string name="permissions_request">We need this permission</string>
+    <string name="not_permission_get_accounts">Boohos can not use your google accout to log in</string>
+    <string name="not_permission_bluetooth">If you do not allow the use of Bluetooth Boohos can not detect deals</string>
+    <string name="all_permissions_denied_init_activity">Boohos can not use your Google account or read your phone number or both</string>
+
+    <!-- Clipboard -->
+    <string name="text_copied">Text copied to clipboard</string>
+    <string name="text_not_copied">Text not copied to clipboard</string>
+
+    <!-- Subtitles toolbar -->
+    <string name="sub_title_interest">Your Interests</string>
+
+    <!-- Category Interest -->
+    <string name="interest_category_text">Select your interests</string>
+
+    <!--Title tabLayout -->
+    <string name="tab_all">All</string>
+    <string name="tab_by">By interests</string>
+    <string name="tab_profile">Profile</string>
+    <string name="tab_favorite">Wishlist</string>
+
+    <!--Rating-->
+    <string name="ranking">Ranking</string>
+
+    <!--Review-->
+    <string name="reviews">Reviews</string>
+    <string name="show_more">Show more</string>
+    <string name="comment_this">Comment this</string>
+    <string name="nothing_more">Nothing more</string>
+    <string name="leave_comment">Leave your comment</string>
+
+    <!--Campaing-->
+    <string name="related_deals">Related deals</string>
+    <string name="promotion_expires">Promotion expires in:</string>
+    <string name="day">Day</string>
+    <string name="days">Days</string>
+    <string name="hour">Hour</string>
+    <string name="hours">Hours</string>
+    <string name="minute">Minute</string>
+    <string name="ninutes">Minutes</string>
+
+    <!--About-->
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="support">Support</string>
+    <string name="legal">Legal</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="cookies_use">Cookies use</string>
+
+    <!--Preferences-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="recurrence_frequency">Recurrence frequency</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_setting">Manage notifications</string>
+    <string name="notification_new">New notification</string>
+    <string name="notification_tone">Notification tone</string>
+    <string name="light">Light</string>
+    <string name="vibrate">Vibrate</string>
+
+    <!--Notifications-->
+    <string name="deleted">Deleted</string>
+    <string name="blocked">Blocked</string>
+    <string name="wan_recive_notifications">you want to receive notifications of your favorite</string>
+    <string name="do_not_ask_again">Do not ask again</string>
+
+    <!--Validations Register-->
+    <string name="select">Select</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_email_valid">Enter valid email</string>
+    <string name="enter_phone_valid">Enter valid phone</string>
+    <string name="enter_password_valid">The password must have at least 8 characters, at least 1 digit(s), at least 1 lower case letter(s), at least 1 upper case letter(s)</string>
+    <string name="enter_phone">Enter phone</string>
+    <string name="enter_gender">Enter gender</string>
+    <string name="enter_birthday">Enter birthday</string>
+    <string name="enter_photo">Enter photo</string>
+    <string name="galery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <!--Inro Slider -->
+    <string name="title_slider1">INNOVATIVE</string>
+    <string name="content_slider1">Bridging the digital world with the physical world.</string>
+    <string name="title_slider2">EFFICIENT</string>
+    <string name="content_slider2">What you want when you want.</string>
+    <string name="title_slider3">PRACTICAL</string>
+    <string name="content_slider3">It saves time and money.</string>
+    <string name="title_slider4">BOOHOS</string>
+    <string name="content_slider4">Much more than just a shopping experience.</string>
+    <string name="button_slider">Start now</string>
+    <string name="please_wait">Please wait&#8230;</string>
+
+    <!-- Share -->
+    <string name="share_with">Share with</string>
+    <string name="app_no_installed">This app not installed</string>
+    <string name="share_in">Share in&#8230;</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="similar_offers">Similar offers</string>
+    <string name="complete_your_profile">Complete your profile</string>
+
+    <!--birthday and gender -->
+    <string name="select_gender">Select your gender</string>
+    <string name="continue_">Continue</string>
+    <string name="read_more">Read more&#8230;</string>
+    <string name="interest_agree">Agree</string>
+
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">Invites</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Invitation Title</string>
+    <string name="invitation_message">Mensaje para invitar a descargar la aplicacion, se debe apendar el deep link %s.</string>
+    <string name="invitation_deep_link">https://boohos.com/welcome</string>
+    <string name="invitation_custom_image">https://boohos.com/welcome/logo.png</string>
+    <string name="invitation_cta">Install!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+    <string name="inivite_friends">Invite friends</string>
+    <string name="inivite_facebook_friends">Invite facebook friends</string>
+    <string name="app_code_unique" translatable="false">h2n5e</string>
+
+    <!-- GrowHacking -->
+    <string name="add_all" formatted="false">Add all</string>
+    <string name="send_all" formatted="false">Send all</string>
+    <string name="skip_" formatted="false">Skip</string>
+
+    <!--test animations-->
+    <string name="square_red_name">square_red</string>
+    <string name="square_blue_name">square_blue</string>
+    <string name="square_green_name">square_green</string>
+    <string name="transition_reveal1">transition_reveal1</string>
+
+    <string name="sample_blue_title">sample_blue_title</string>
+    <string name="long_text">Bacon ipsum dolor amet cupidatat bresaola minim, aliquip beef aute ea porchetta. Meatball brisket do, rump in beef ea ham hock spare ribs mollit qui dolore ipsum voluptate cow. Drumstick prosciutto salami duis jerky jowl. Mollit ball tip short ribs doner fugiat frankfurter leberkas andouille kevin pork loin nostrud ham culpa. Rump pariatur ham hock excepteur picanha pork. Corned beef flank proident shankle rump.</string>
+    <string name="medium_text">Porchetta landjaeger tail meatball t-bone spare ribs. Sirloin pork chop bacon pork belly strip steak. Porchetta ham meatball pig salami short ribs jowl spare ribs sirloin tongue jerky cupim chuck.</string>
+    <string name="reveal_body1">Circular Reveal Animation starting from the center of target view</string>
+    <string name="reveal_body2">Circular Reveal Animation starting from touch coordinates</string>
+    <string name="reveal_body3">View layout change animation with Circular Reveal Animation on finish</string>
+    <string name="reveal_body4">Circular Reveal Animation from top with nested animations on end</string>
+
+
+    <!--UNUSED-->
+    <!--UNUSED-->
+    <!--UNUSED-->
+
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+    <!--<string name="action_disconnect">Disconnect</string>
+    <string name="action_share">Share</string>-->
+
+    <!--<string name="title_configuration">Configuration</string>
+    <string name="title_activity_app_auth">Authorization</string>-->
+
+    <!-- Guillotine -->
+    <!--<string name="profile">PROFILE</string>
+    <string name="feed">FEED</string>
+    <string name="activity">Boohos</string>
+    <string name="settings">SETTINGS</string>-->
+
+    <!--<string name="bluetooth_question">Boohos wants enable your Bluetooth device</string>
+        <string name="bluetooth_warning">If the Bluetooth device is not enabled, Boohos can not detect deals</string>-->
+
+    <!--<string name="interest_exit">Do you want to exit and missing changes?</string>
+    <string name="interest_completed">Completed!</string>-->
+
+    <!--<string name="twitter_consumer_key" translatable="false">NOR940cWbUBLule9WBxzprW6T</string>
+<string name="twitter_secret_key" translatable="false">xOa4sxcEAUtHh7LJ4j0gAVTJz2i9a1Y3hzMwKNv0SqLqWOWZIw</string>-->
+
+    <!--<string name="share_post_success">Your post has been shared</string>-->
+
+    <!--<string name="hint_username">Username</string>-->
+    <!--<string name="hint_country">Country</string>-->
+    <!--<string name="main_menu_question">What do you want to do?</string>-->
+    <!--<string name="not_permission_read_sms">Boohos can not read your phone number</string>-->
+    <!--<string name="rate_this">Rate this</string>
+    <string name="review_us">Review us</string>-->
+    <!--<string name="hint_menssage">Menssage</string>-->
+    <!--<string name="customer_review">Customer review</string>-->
+    <!--<string name="has_review">Only can write one review</string>-->
+    <!--<string name="change_image">Change Image</string>-->
+    <!--<string name="add_photo_from">Select photo from</string>-->
+
+    <!--UNUSED-->
+    <!--UNUSED-->
+    <!--UNUSED-->
+</resources>

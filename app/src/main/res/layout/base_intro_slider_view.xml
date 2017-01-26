@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/default_16dp">
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/sub_title"
+        style="@style/OptimusTextStyle.Title.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/big_title"
+        style="@style/OptimusTextStyle.Title.Accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="@string/title_slider1" />
+
+    <com.optimussoftware.boohos.widget.OptimusTextView
+        android:id="@+id/description"
+        style="@style/OptimusTextStyle.BodyR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/description"
+        android:gravity="center" />
+    
+</LinearLayout>

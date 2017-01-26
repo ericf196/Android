@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_review"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/com_facebook_profile_picture_blank_square"
+        android:visibility="visible"
+        app:civ_border_color="#FFFFFFFF"
+        app:civ_border_width="2dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_name"
+                style="@style/OptimusTextStyle.BodyM.Accent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/textColorPrimary" />
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_date"
+                style="@style/OptimusTextStyle.Caption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:minWidth="80dp"
+                android:text="@string/app_name" />
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/icon_size_small"
+                android:layout_height="@dimen/icon_size_small"
+                android:visibility="invisible"
+                app:iiv_padding="6dp"
+                app:iiv_color="@color/colorEnabled"
+                app:iiv_icon="cmd_pencil" />
+
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1.0"
+            android:theme="@style/RatingBar" />
+
+        <com.optimussoftware.boohos.widget.OptimusTextView
+            android:id="@+id/text_comment"
+            style="@style/OptimusTextStyle.BodyR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum_short" />
+
+    </LinearLayout>
+
+</LinearLayout>

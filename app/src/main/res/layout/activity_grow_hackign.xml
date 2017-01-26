@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar"/>
+
+    <com.optimussoftware.boohos.widget.OptimusViewPager
+        android:layout_below="@id/tool"
+        android:id="@+id/view_pager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.optimussoftware.boohos.widget.OptimusViewPager>
+
+
+    <LinearLayout
+        android:id="@+id/controllers_grow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+
+        <com.optimussoftware.boohos.widget.OptimusTextView
+            android:id="@+id/text_invite_friend"
+            style="@style/OptimusTextStyle.Title.Primary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="@string/accept"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <com.optimussoftware.boohos.widget.OptimusTextView
+            android:id="@+id/text_skip"
+            style="@style/OptimusTextStyle.Title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="@string/skip_"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
