@@ -74,7 +74,9 @@
                 android:id="@+id/textView1"
                 android:layout_width="15dp"
                 android:layout_height="15dp"
-                android:layout_marginStart="47dp" />
+                android:layout_marginStart="47dp"
+
+                />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/logo_location"
@@ -83,17 +85,6 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/ic_profile_image" />
-
-            <com.optimussoftware.boohos.widget.OptimusTextView
-                android:id="@+id/text_name_location"
-                style="@style/OptimusTextStyle.Title.White"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="100dp"
-                android:layout_marginEnd="15dp"
-                android:layout_marginTop="32dp"
-                android:ellipsize="end"
-                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -133,6 +124,16 @@
                 android:layout_alignParentBottom="true"
                 android:background="@drawable/background_shadow_inverse">
             </LinearLayout>
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/text_name_location"
+                style="@style/OptimusTextStyle.Title.White"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/image_advertising"
+                android:layout_toEndOf="@+id/logo_location" />
 
         </RelativeLayout>
 

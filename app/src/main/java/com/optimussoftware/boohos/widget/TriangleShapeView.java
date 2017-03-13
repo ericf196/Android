@@ -10,7 +10,7 @@ import android.view.View;
 
 public class TriangleShapeView extends View {
 
-    public int colorCode = Color.WHITE;
+    public int colorCode = Color.BLACK;
 
     public int getColorCode() {
         return colorCode;

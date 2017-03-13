@@ -71,19 +71,27 @@ dependencies {
         exclude group: 'com.android.support', module: 'appcompat-v7'
         exclude group: 'com.rengwuxian.materialedittext', module: 'library'
     }
-    apt 'com.jakewharton:butterknife-compiler:8.1.0'
     compile('com.crashlytics.sdk.android:crashlytics:2.6.1@aar') {
         transitive = true;
     }
 
+    //  People API
+    //	Analytics
+    //	Realtime Database
+    //	Storage
+    //	Crash Reporting
+    //	Authentication
+    //	Cloud Messaging and Notifications
+    //	Remote Config
+    //	Invites and Dynamic Links
+    //	AdMob
+    //compile 'com.facebook.android:facebook-android-sdk:4.8.2'
     compile 'com.android.support:multidex:1.0.1'
-
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:cardview-v7:24.2.0'
-    compile 'com.android.support:design:24.2.0'
-    compile 'com.android.support:recyclerview-v7:24.2.0'
-    compile 'com.android.support:support-v4:24.2.0'
-
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
     compile 'com.google.android.gms:play-services-auth:10.0.1'
     compile 'com.google.android.gms:play-services-plus:10.0.1'
     compile 'com.google.android.gms:play-services-gcm:10.0.1'
@@ -91,32 +99,20 @@ dependencies {
     compile 'com.google.android.gms:play-services-identity:10.0.1'
     compile 'com.google.android.gms:play-services-location:10.0.1'
     compile 'com.google.android.gms:play-services:10.0.1'
-
     compile 'com.google.api-client:google-api-client:1.22.0'
-    //  People API
     compile 'com.google.apis:google-api-services-people:v1-rev5-1.22.0'
     compile 'com.google.firebase:firebase-core:10.0.1'
-    //	Analytics
     compile 'com.google.firebase:firebase-database:10.0.1'
-    //	Realtime Database
     compile 'com.google.firebase:firebase-storage:10.0.1'
-    //	Storage
     compile 'com.google.firebase:firebase-crash:10.0.1'
-    //	Crash Reporting
     compile 'com.google.firebase:firebase-auth:10.0.1'
-    //	Authentication
     compile 'com.google.firebase:firebase-messaging:10.0.1'
-    //	Cloud Messaging and Notifications
     compile 'com.google.firebase:firebase-config:10.0.1'
-    //	Remote Config
     compile 'com.google.firebase:firebase-invites:10.0.1'
-    //	Invites and Dynamic Links
     compile 'com.google.firebase:firebase-ads:10.0.1'
-    //	AdMob
     compile 'com.google.firebase:firebase-appindexing:10.0.1'
     compile 'com.googlecode.libphonenumber:libphonenumber:7.2.2'
     compile 'com.estimote:sdk:0.10.1@aar'
-    //compile 'com.facebook.android:facebook-android-sdk:4.8.2'
     compile 'com.facebook.android:facebook-android-sdk:4.13.2'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
@@ -147,6 +143,7 @@ dependencies {
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'com.androidadvance:topsnackbar:1.1.1'
     compile 'joda-time:joda-time:2.9.4'
-    compile 'org.apache.commons:commons-lang3:3.0'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
 }
 apply plugin: 'com.google.gms.google-services'

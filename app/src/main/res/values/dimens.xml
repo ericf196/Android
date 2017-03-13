@@ -56,11 +56,14 @@
     <dimen name="font_button_size">14sp</dimen><!--MEDIUM--><!--ALL CAPS-->
     <dimen name="font_subheading_size">16sp</dimen><!--REGULAR-->
     <dimen name="font_title_size">20sp</dimen><!--MEDIUM-->
+    <dimen name="font_title_size_00">25sp</dimen><!--MEDIUM-->
+    <dimen name="font_title_size_01">30sp</dimen><!--MEDIUM-->
     <dimen name="font_heading_size">44sp</dimen><!--REGULAR-->
     <dimen name="font_display_01_size">34sp</dimen><!--REGULAR-->
     <dimen name="font_display_02_size">45sp</dimen><!--REGULAR-->
     <dimen name="font_display_03_size">56sp</dimen><!--REGULAR-->
     <dimen name="font_display_04_size">112sp</dimen><!--REGULAR-->
+
 
     <!--Text Leading-->
     <dimen name="spacing_extra">2.5dp</dimen><!--android:lineSpacingExtra="@dimen/spacing_extra"-->

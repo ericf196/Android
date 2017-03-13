@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="foundation-icons-typeface-3.0.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.mikepenz/foundation-icons-typeface/3.0.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.mikepenz/foundation-icons-typeface/3.0.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/foundation-icons-typeface/3.0.0.2/9c411a12eb9e3be808f5671ecf2ab87f7087504a/foundation-icons-typeface-3.0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

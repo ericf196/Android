@@ -30,6 +30,7 @@
     <color name="colorTextSmallWithBackground">#B7B8BA</color>
 
     <color name="white">#FFFFFF</color>
+    <color name="white_focussed">#c1c1c1</color>
     <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
     <color name="transparent_black">#dc000000</color>
@@ -44,5 +45,12 @@
 
     <!-- Notification -->
     <color name="no_viewed">#E3F2F4</color>
+
+    <!-- Colores de Cupones -->
+    <color name="background_coupon_primary">#ED611B</color>
+    <color name="background">#e61665c1</color>
+    <color name="background_cupon">#032D2C</color>
+
+
 
 </resources>

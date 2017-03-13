@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.optimussoftware.boohos.main.CuponsFiveFragment"
+    android:orientation="vertical"
+    android:background="@color/background_coupon_primary"
+    android:gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingTop="4dp"
+            android:src="@drawable/ic_logo_toolbar"
+            android:layout_marginBottom="30dp"
+            android:paddingBottom="4dp"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            >
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/ubicacion_cupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_title_size_00"
+                android:textColor="@color/black"
+                android:text="@string/ubicacion_cupon"
+                android:gravity="center_horizontal"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:background="@color/background_coupon_primary"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <com.google.android.gms.maps.MapView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/maps_cupon"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <com.mikepenz.iconics.view.IconicsButton
+        android:id="@+id/use_cupon"
+        style="@style/OptimusButton.Primary"
+        android:gravity="center"
+        android:background="@drawable/button_use_cupon"
+        android:text="@string/use_cupon"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp" />
+
+</LinearLayout>

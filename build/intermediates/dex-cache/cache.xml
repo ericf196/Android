@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\1.0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c15baca2e57ebec0f42e5924e60f615451045388">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-tweet-composer-1.0.5_30edbfcf9d4e5dc43e0780cc930ebb474d4cf951\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_fa3e15601dc615e3ea752f50cd63af6e3ef51bcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.4\1c295b462f16702ebe720bbb08f62e1ba80da41b\joda-time-2.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1c295b462f16702ebe720bbb08f62e1ba80da41b">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9.4_f6c56720f5f2318dfd02d04a201a5f55280cd775\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.8.0\a517f29ed06be2b2879524fcd94b6e9b36e2e0b5\retrofit-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.8.0_3326dd8cb28fa28491e1c09a77403518868c9633\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d4ab8678882571a0a6f19c47a826ecbce5b4f42b">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.1.0_e3c14069e2691e451f1d14ce75ccd3f18c9a5b4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_4fdaad6450728aac302a916a4f43167c7873b00a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_1c14c24dd0f26ee9a855b68ed6858a740d3ea82d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_f6457913dbac9b4700aba3162943ac03d72aa343\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_bd9746bf6d404eee11eb2364de024953d16540ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_20390cd60492dfaac90f9bcabfc67eb7d439a561\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-3.2.0_cde67d8da3255785fbf7eb395d02d0d145bdb915\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_f61c0033983aa65370b1eee1a0b0bf13d5591b63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_088c02c1de405fb5423857762afc09a98fefeed2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.clans-fab-1.6.4_6a0436d7b8b6a84801bd8b6ffaaaab8ebc78931d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_70d0bc69164ef176322633264f31741519d022be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-api-3.2.0_0533b69d6ae855f47a6553d0fb645f6718155f42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_28fbb86efa756d8d72b59a02e406171f0cd03fbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_c0929ae2b7b1fd5fd63ca209d35883caa8d6681c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.13.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3322df7b184ab5c8e8341508431cb3fcf395d13f">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.13.2_d86f7798793a7207129fcd9351b09c5db4d014fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_ff1f0047742085ea8b0793cadc5617c66ab846e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_dfb28e6f7055e1be908fc0b22bb247e1eea41807\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_3db2ccf7d85f90edb21e20b400040bcf4326075e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_044ca76cd11f64d4ffa776458862a690a7528acf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_bb08f69f677909409f6f23d0ad143f821dda2cf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dc012d264628eedf54a8416ffa8d0856815decde">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ebc6ffbbf0d9021e4030b91768bd8a6307640549\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.22.0\1d63f369ac78e4838a3197147012026e791008cb\google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.22.0_b77b9eac040698fa1f7cc531cc1f88b23e639b1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.mikepenz\foundation-icons-typeface\3.0.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ad80828980e19c461917da320684218ee49be1c7">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-foundation-icons-typeface-3.0.0.2_00a518ff13b3d611656f95df1fe8700d1a29749e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_584fa3e02b3c0a2604f9120370a82e4626146081\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_301b93412f5d98b813d4b8419cec2b5972d183f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_81a903179d68fbc36d475707bf724d4f9aee8adb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.22.0\244350c0c845c583717ade13f5666a452fd0cfa\google-api-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.22.0_3f6a694d1f77c0b05a2e9372baecd6aab9b0a9b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_9a4c61b716a59b9b4fda9346920a19b8dacfc51b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_90bb39e78121973d0349aaf91e29fde862b7e84b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_19a3acbf9a10ceb73a3deb2b58c28d5e7e307485\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.1.0\d6854f42bfb4098d3d2358d93201307b9f1cc95d\butterknife-annotations-8.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d6854f42bfb4098d3d2358d93201307b9f1cc95d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.1.0_7cff61abeef422c909e2ddb06ab579e012502bb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_e4f94c392c59c1ca853cd5cc4bcb8588770f4a9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit-mock\1.8.0\8bc99a93998f08302e7615cca69ba8c97c6a6b2\retrofit-mock-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="08bc99a93998f08302e7615cca69ba8c97c6a6b2">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-mock-1.8.0_55204e3db5380395fddd7f365a326ab47dc50341\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2859050f0cc9e8690f6b6355547124bb7af4384d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\me.gujun.android.taggroup\library\1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f91fda9bdd268cd21a0ef9d8f40154ded0bd4c53">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.gujun.android.taggroup-library-1.4_a815c5b4caa9860e0a44178e1a7b8f9a0c76e095\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-lang3-3.3.2_4314d5c387d123a62f2e97084dd070725c126438\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_cce700bc51d84d070a9d20c229198d1ab77cc4a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_3719d9018f464ec203d0829e3e028dfea7ae4ddc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_260840617ef23520ec9aab4f49ab21baed4c682e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3575e73a22dce98f0bdbcdb475ef55a84606a9a6">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.12_a5e3719354a7cf3b533281f2bcfed2f7f6870f91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_90bbd0ad9a5a349bd037dbc3ea6f3513d1b8f281\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_ff6f7535aded7de54df4c4c2084de5c14ec24618\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.telenav.expandablepager\expandablepager\0.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="df695de289e981a925e71f9dfa7f32498033fb22">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.telenav.expandablepager-expandablepager-0.2.1_73426f1d8428ed468232625dfa7f71fb33d958f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.22.0\cc014d64ae11117e159d334c99d9c246d9b36f44\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.22.0_776bc98e1dda058bf32c5f07668e24106cace472\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="99c0128e5e416cf65c7dc8465c1cb1d5fd7c4f92">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.6.1_60521473d492e16dbe993b5bf4f9ab248a0c4fb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e7406da0f3c4c262b7b6921319d6942208d5608">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_283a5e6ff8efa5deea07229064a160d28d9df98b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.zhanghai.android.materialprogressbar-library-1.1.7_74546e4710dec36ca025f1e463280f350db2bb82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_23285a7cc8fe329b0cf2621d20a0091a8bf3ecaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_dd2cadb7242e8154626f189252c0984b0e5e0fc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_3e32ddb5db46b92dfa3042790c0cf639d614bf46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_ca0cbc19e000288785c8daa7abb9703f7c842647\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-people\v1-rev5-1.22.0\337b700ae68851146f46b2b0a35d96ffa9963406\google-api-services-people-v1-rev5-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="337b700ae68851146f46b2b0a35d96ffa9963406">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-services-people-v1-rev5-1.22.0_7360841a4afd161ce360cefc20b8907ed79b7179\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.twitter\twitter-text\1.13.0\78415b95ae3184c5926d593feab64bfc0b73b2dd\twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter-text-1.13.0_1234cfb066796c87174ac287103c90a4f2bf27e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_05f5189c7a7707bcbd27ddaab2c941dd27533c9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_924b0746fba1d61d21933b5f6a0fea850174965e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_93f4fa18aaf979bb615a205bc5f17a4927e54750\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_cbd468e812465c494cf24a64bc1389f022612c68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_3711654b52e5e2c5433b3d461283906341b7623c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.daimajia.swipelayout\library\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.swipelayout-library-1.2.0_6a7d6199d255684c17c063f84bea3d90453fd9a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_b11d96375cc22e0138a25da73de57197f4b524ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.digits.sdk.android\digits\1.11.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f1b135f6761a5b8d0b9bff42d1b81172a302b245">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.digits.sdk.android-digits-1.11.1_e6ace0831d36bd763d6c9804c6d27c9a49dd17e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_2dd14ea2ef488498001557d9fdb2f474f1debb38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.alexvasilkov\gesture-views\2.1.1\f46205d5a153cca4f8bf3109baa105b3258f55d2\gesture-views-2.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f46205d5a153cca4f8bf3109baa105b3258f55d2">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\gesture-views-2.1.1_df83d4aa9285e7cce0de15825ed19e169fad494a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_4ce271ef1d04d5e25cf57f6d8165a02581aff461\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_c5388f05b65b14f7af7ff868f8cbd7a9a6f79c14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.0.0_5d229131e74000e2d7b3bf9df015c0c790a9aaf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_2e83426205f54bfb66e8001f52ad2ccdbc22dd5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_bbe68aee11f13a1304b25ecb4454abd8632e93ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_072ee0664845fa661fa3a3f9f52b61bd28afca06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_f5f2c1cdfe9c168cfa4af79e82d5fa6dfd6b6349\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b8ead22429d58f47efd132b8252e6747e4b7de19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_809023c2730e0064f3670a2f1b43df7461d2e161\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-17.0_d9f7909f116376a76442b532cd818fded91ab395\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.androidadvance\topsnackbar\1.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="cb3cf97748344da6fad1deb830c7c479a7c53645">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.androidadvance-topsnackbar-1.1.1_b3906bfcbc1187a0da801365281b5d2322bf49a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_704a36df2e980db3b1cf08ea6c5b3fc3e381400b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.mikepenz\community-material-typeface\1.5.54.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dc36bd2d0d62ca1558695905005027522933f7f1">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-community-material-typeface-1.5.54.2_c9a625e0bdb6400ccfffd7d25f1d8354f5141df0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter\1.14.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f4b7e6b5b106eeef50a6cc6eac330f419a273c5d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-twitter-1.14.1_a557f5b6858722b7d701c9378eeaaa77e5eeb763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_d21f7075a0ea11674fcabdfe19f983c26e027cc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.22.0\d441fc58329c4a4c067acec04ac361627f66ecc8\google-http-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.22.0_2b6b86bdbca352351d7d87a47b7844ab61d844fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="acc33023966f868dfe3ecb77a3ce5676dc8de92d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.afollestad.material-dialogs-core-0.9.0.1_e361c29e6f2e676c0eec9eea0b44cc4bea0005dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_b8cff056880f527e637e4a53c87bcf49b5d4f568\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8f3311d768772d0f5f6723cc14275d4e22c11d4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_3e7f8646967ca74d162a0c186387ee4aaf2a8a62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2c0dd4f53b30b474d593dc4e9586f349714375b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.2.0\a56f28d5b7fab623c6c1d2afa08dd496d873ac21\logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.2.0_30532593d5b45f9127d4f297fec055fa0c692e72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_0924c2d30aff175eb4747b4a733855f452fed12a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_892f91e4e8b3a18a242743b982f3ccdc99f943e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-ui\1.11.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="35d0ac5ea6d575fbf5b6b8be0562e8492f20ba29">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-tweet-ui-1.11.1_394365f0f5670bc35e61c414223c29311bb8bf90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_3c7c74df56a3580a00eadd8a9d6809367d85dbfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_c60f316ba888908ff01975172d593b6cbc89ffa0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_6eb2a103b39a82433128d7f513b02051f3cfe9e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_719e18aa86fef1c90d40ff7b4ef50a3386fa4862\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2f9a9b21b70965cde70f6eb8f2ee68794fb482e6">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.10_2ff7bb9ae5b8b8d31424817ae0fbedcd909a4ed8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_8152840f7498a6a57d8c48db5cc476084e1a3456\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_8deeca4371e76fd760648eb1074637396f3b9a05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_94666e4b8e9498b6a414a1d5d56a92cbe7d9091e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.8.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9f910ce4152cf5b205ee2630dc2e12d2803e1e63">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-iconics-core-2.8.1_5b8e962d0a79f73cbe43dedb9a06d34dd6c336ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_2009cf52fa9d8a64d035f9d6ab52900ef953c4d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_43d57e4809418dfb2ca5f65f67ecee6bca2873cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_dbe4c342bf1dcbd075f05851974a73d9d2e74cb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_7833a3cbe79f730ba94a374ed11406e55e2237a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_c36f22f4c91ab62e7acdc4e0c5f0e0f116b05e4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_bb2b1824cc0b7300f0946f3858e63ae1d94c34be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_69e551a6f39fa88e87c39d71de6d112f477cba48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_cdffe776003aa4c73bdddbc5f0670ca60e34fe88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.1.4_140977741e418612ed3fa2a7449cedc9adaf7372\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_3b8f4af67fd6cb062021950569d7c8eb757cbc8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_f0f8adacc5f9fc37ddac7babb18509f8eb6a284e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_6ec748e345ed958dbfb3eced19aa9e6f3be4d719\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_5c290b92f5bc490d1147dfa2ba3790766ec569c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_3b781c2356427670c9d37b9e5148b10bfa4b9f3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.7.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3248e86647b947af00d355e1f65da130aa07a20c">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-twitter-core-1.7.0_0544f4f67748ab28834d942940ea88cd6a038771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library-material\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.weiwangcn.betterspinner-library-material-1.1.0_6142b4a9914072fa7bc0b0bc981cb5b7f700f55d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_b9f837906c19507833baea8ca639ac2df64531fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_15e5c59bde73fcffaef4310ca10d43b31e210dcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_4095c42faa9d786a03db59facbe8e0482606dd42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0c46a5a897439810b6c437ce188bd07d9d8dffb0">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.8_09f9ce9088ca1b4641731eebac5c54109bcd8c39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_2d12fe23362da22b742f959c65eb381809cb32be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_7787b7d7fe7f7c993ca404e073702cea6ee830b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_9f2792c6753928879849f336479f17ad884e9a9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_916f1893879099d2b9ba72f9891f2a838e8478a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.github.CodeFalling\RecyclerViewSwipeDismiss\v1.1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0bef74253364bd5a61edf0e2357cdf75a1033d0b">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.CodeFalling-RecyclerViewSwipeDismiss-v1.1.2_f9fbc6950c84e2c41ad6e4c3cf0c154f51da8d9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\.gradle\caches\modules-2\files-2.1\com.googlecode.libphonenumber\libphonenumber\7.2.2\b6975e439e0b44984098d1e5eb9f422ce1431ecb\libphonenumber-7.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b6975e439e0b44984098d1e5eb9f422ce1431ecb">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\libphonenumber-7.2.2_10cdcf795c907becf504f6f80c6ca146e0025ce7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_6584e6ee095c71aaa6c2748dc52697d180a4dbfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers-shim\0.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="29864b68d990da5b14dbff9fbecf10600bcf7603">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-shim-0.0.3_e21bfa70b7ce59a189896a745e6b40afce997a3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.mikepenz\ionicons-typeface\2.0.1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="490c1d23f31968528f0b8003ca34e268f3c18615">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-ionicons-typeface-2.0.1.2_22af84e1f1198f6ffa0cd2c56c3560a9e08c0c7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d2ce88db16786c9c2a839f1839af47a9a96dad17">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.2.1_641a1cc0f476331510a5f0deb568cee480cf5705\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_3b38ff8c6a3cbe6918fce8bd89d8ec19c5f17285\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.code-troopers.betterpickers\library\3.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d80e2f508605b275ac7edf2447dd62297a44e8f1">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.code-troopers.betterpickers-library-3.0.0_60731d17fa06ef6e3711cb26e08dd9f348041a7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.kbeanie\image-chooser-library\1.5.8\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e25282bb04cc37478252c73f004a376be8c97c6a">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.kbeanie-image-chooser-library-1.5.8_d29a9345b7af36d7dbd46a42e85eae214fd2d9cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.estimote\sdk\0.10.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6c300feb88d963a139744f25a50733148197e4c7">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.estimote-sdk-0.10.1_5c9fd5e68f81793f88a7dc62cfaf58c1e34af5d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.4.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a06b0579dbe59192ef460e3de04657720925d05b">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.amlcurran.showcaseview-library-5.4.3_114a9607c8e568b272175953db36cf09aff78328\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.karumi\dexter\2.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3f8fe3c5035c003058846d644d98ca399d405e5e">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.karumi-dexter-2.3.1_1133653649553dd268a28af2cc41eb95427b4286\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\Omega\AndroidExternal\boohos-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_803893a53812f47590619c9f3f21c631d72afd7e\classes.dex" />
+    </item>
+
+</items>

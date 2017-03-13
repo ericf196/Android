@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo_cupon"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.optimussoftware.boohos.main.CuponsThreeFragment"
+    android:background="@drawable/fondo_cupon"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/background_coupon_primary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toStartOf="@+id/see_more_cupon">
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/ending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:minHeight="@dimen/font_small_size"
+                android:text="@string/ending"
+                android:gravity="center_horizontal"
+                />
+
+            <com.optimussoftware.boohos.widget.OptimusTextView
+                android:id="@+id/ending_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/font_small_size"
+                android:textColor="@color/white"
+                android:text="@string/time"
+                android:gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+        <com.mikepenz.iconics.view.IconicsButton
+            android:id="@+id/see_more_cupon"
+            style="@style/OptimusButton.Primary"
+            android:background="@drawable/button_cupon_white"
+            android:text="@string/see_more"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_xlarge"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:minWidth="150dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="170dp"
+        android:layout_height="420dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="47dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/zara"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/backgroud_cupons_border"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="6dp">
+            <ImageView
+                android:id="@+id/sale"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:src="@drawable/sale_off"/>
+            <ImageView
+                android:id="@+id/cod_b_qr"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:src="@drawable/barras"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_marker"
+                        />
+
+                    <com.optimussoftware.boohos.widget.OptimusTextView
+                        android:id="@+id/dir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/background_coupon_primary"
+                        android:text="@string/direccion_cupon"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <com.optimussoftware.boohos.widget.OptimusTextView
+                        android:id="@+id/dir_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:maxLines="3"
+                        android:text="@string/lorem_ipsum"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_phone_classic"
+                       />
+
+                    <com.optimussoftware.boohos.widget.OptimusTextView
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/background_coupon_primary"
+                        android:text="@string/phone_cupon"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <com.optimussoftware.boohos.widget.OptimusTextView
+                        android:id="@+id/phone_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:maxLines="2"
+                        android:text="@string/lorem_ipsum"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_alarm"
+                       />
+
+                    <com.optimussoftware.boohos.widget.OptimusTextView
+                        android:id="@+id/hor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/background_coupon_primary"
+                        android:text="@string/horario_cupon"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <com.optimussoftware.boohos.widget.OptimusTextView
+                        android:id="@+id/hor_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+
+                        android:maxLines="2"
+                        android:text="@string/lorem_ipsum"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

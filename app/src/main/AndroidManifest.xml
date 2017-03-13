@@ -11,7 +11,9 @@
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.PERMISSION_GRANTED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -41,11 +43,10 @@
     <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
     <uses-permission-sdk-23 android:name="android.permission.MANAGE_ACCOUNTS" />
     <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
     <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS" />
     <uses-permission-sdk-23 android:name="android.permission.WRITE_CONTACTS" />
-
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
@@ -53,8 +54,11 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true" />
 
+    <uses-feature android:glEsVersion="0x00020000"
+        android:required="true"/>
+
     <application
-        android:name="com.optimussoftware.boohos.App"
+        android:name=".App"
         android:fullBackupContent="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -63,21 +67,29 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="@string/google_maps_key" />
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
+            android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <!--<meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" /> -->
+        
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="307659764c8309df1cfdb23ee7d98b59e9ba2851" />
+
+        <!--google maps-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyANqlsuO3BBMdfzl1iWqzmcfxweXks-CgI"/>
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
@@ -90,21 +102,17 @@
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
             </intent-filter>
         </receiver>
-
-        <receiver android:name="com.optimussoftware.boohos.service.receiver.AlarmReceiver">
+        <receiver android:name=".service.receiver.AlarmReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
-        <receiver android:name="com.optimussoftware.boohos.service.receiver.AlarmEfectiveDays">
+        <receiver android:name=".service.receiver.AlarmEfectiveDays">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
-
-        <receiver android:name="com.optimussoftware.boohos.util.ConnectionReceiver">
+        <receiver android:name=".util.ConnectionReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
@@ -117,7 +125,7 @@
             android:name="com.estimote.sdk.service.BeaconService"
             android:exported="false" />
         <service
-            android:name="com.optimussoftware.boohos.account.auth.AuthenticatorService"
+            android:name=".account.auth.AuthenticatorService"
             tools:ignore="ExportedService">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
@@ -130,14 +138,14 @@
 
         <!-- PROVIDER -->
         <provider
-            android:name="com.optimussoftware.boohos.account.UserProvider"
+            android:name=".account.UserProvider"
             android:authorities="com.optimussoftware.com"
             android:exported="false"
             android:syncable="true" />
 
         <!-- SERVICIO DE SINCRONIZACIÓN -->
         <service
-            android:name="com.optimussoftware.boohos.account.sync.SyncService"
+            android:name=".account.sync.SyncService"
             android:exported="true"
             android:process=":sync">
             <intent-filter>
@@ -154,65 +162,69 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.optimussoftware.gps.GpsTrackerAlarmReceiver"></receiver>
+        <receiver android:name="com.optimussoftware.gps.GpsTrackerAlarmReceiver" />
 
         <service android:name="com.optimussoftware.gps.LocationService" />
-        <service android:name="com.optimussoftware.boohos.service.ClearDataUtil" />
-        <service android:name="com.optimussoftware.boohos.service.EfectiveDays" />
+        <service android:name=".service.ClearDataUtil" />
+        <service android:name=".service.EfectiveDays" />
 
         <activity
-            android:name="com.optimussoftware.boohos.InitActivity"
+            android:name=".InitActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.optimussoftware.boohos.main.MainActivity"
+            android:name=".main.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme" >
+
+
+        </activity>
+
         <activity
-            android:name="com.optimussoftware.boohos.account.AppIntro"
+            android:name=".account.AppIntro"
             android:label="@string/title_activity_app_intro"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.account.ForgotPassActivity"
+            android:name=".account.ForgotPassActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.viewDetail.ViewDetailMaterial"
+            android:name=".viewDetail.ViewDetailMaterial"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.viewDetail.LocationActivity"
+            android:name=".viewDetail.LocationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.showImage.FullImage"
+            android:name=".showImage.FullImage"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.review.ReviewActivity"
+            android:name=".review.ReviewActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.account.AboutActivity"
+            android:name=".account.AboutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.optimussoftware.boohos.account.PreferencesActivity"
+            android:name=".account.PreferencesActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".invitations.GrowHackingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".DeepLinkActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
-            <!-- <intent-filter>
+
+            <!--
+             <intent-filter>
                  <action android:name="android.intent.action.VIEW" />
 
                  <category android:name="android.intent.category.DEFAULT" />
@@ -224,15 +236,14 @@
                  <data
                      android:host="boohos.com"
                      android:scheme="https" />
-             </intent-filter>-->
+             </intent-filter>
+            -->
         </activity>
-
         <activity
             android:name=".WelcomeActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
-
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -247,7 +258,6 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -255,40 +265,51 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
-            android:name="com.optimussoftware.boohos.UserInterestActivity"
+            android:name=".UserInterestActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.optimussoftware.boohos.account.UserRegisterActivity"
+            android:name=".account.UserRegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.optimussoftware.boohos.account.BirthdayAndGenderActivity"
+            android:name=".account.BirthdayAndGenderActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.optimussoftware.boohos.notification.AlarmMangerActivity"
+            android:name=".notification.AlarmMangerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.optimussoftware.boohos.notification.NotificationActivity"
+            android:name=".notification.NotificationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.optimussoftware.boohos.invitations.InvitationGooglePlus"
+            android:name=".invitations.InvitationGooglePlus"
             android:screenOrientation="portrait" />
-
         <activity
-            android:name="com.optimussoftware.boohos.SplashScreen"
+            android:name=".SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".account.AuthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".account.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentCompat" />
+        <activity android:name=".main.CuponsActivity"
+            android:screenOrientation="portrait" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.optimussoftware.boohos.account.AuthActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.optimussoftware.boohos.account.LoginActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/TransparentCompat" />
     </application>
+
+
 
 </manifest>
